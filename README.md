@@ -1,11 +1,11 @@
 # brew-neovim-nightly
 
-Homebrew cask for neovim nightly
+My own fork of a Homebrew cask for Neovim nightly, to avoid depending on random sources I dont' fully control.
 
 ## Installation
 
 ```
-brew tap austinliuigi/brew-neovim-nightly https://github.com/austinliuigi/brew-neovim-nightly.git
+brew tap sleepyfran/brew-neovim-nightly https://github.com/sleepyfran/brew-neovim-nightly.git
 ```
 ```
 brew install neovim-nightly
