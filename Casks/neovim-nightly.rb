@@ -10,4 +10,9 @@ cask 'neovim-nightly' do
   homepage 'https://neovim.io/'
 
   binary "nvim-macos-#{arch}/bin/nvim"
+
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{staged_path}/nvim-macos-arm64"]
+  end
 end
